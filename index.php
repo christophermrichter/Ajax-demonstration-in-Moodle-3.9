@@ -50,6 +50,7 @@ if ($delete) {
   } elseif ($fromform = $mform->get_data()) {
       //In this case you process validated data. $mform->get_data() returns data posted in form.
       // Save form data
+    
       if ($id) {
           // update
           // $data = $DB->get_record('table', ['id'=>$id]);
@@ -59,8 +60,8 @@ if ($delete) {
           // new
           // $id = $DB->insert_record('table', [], true, false);
       }
-      // redirect to units page with qual id
-      redirect('/', '', 10);
+
+      //redirect('/', '', 10);
   } else {
       // this branch is executed if the form is submitted but the data doesn't validate and the form should be redisplayed
       // or on the first display of the form.

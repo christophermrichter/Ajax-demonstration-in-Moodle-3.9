@@ -26,6 +26,7 @@ require(['core/first', 'jquery', 'jqueryui', 'core/ajax'], function(core, $, boo
         for (var i = 0; i < data.length; i++) {
           $('<option/>').val(data[i].id).html(data[i].firstname + ' ' + data[i].lastname).appendTo('#id_teachers');
         }
+        setnewvalue();
         return;
       }).fail(function(err) {
         console.log(err);
@@ -34,6 +35,15 @@ require(['core/first', 'jquery', 'jqueryui', 'core/ajax'], function(core, $, boo
       });
 
     });
+
+    $('#id_teachers').change(function() {
+      setnewvalue();
+    });
+
+    function setnewvalue() {
+      console.log($('#id_teachers').val());
+      $('input[name = teacherid]').val($('#id_teachers ').val());
+    }
 
   });
 });

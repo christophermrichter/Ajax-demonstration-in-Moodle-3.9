@@ -51,6 +51,10 @@
         $mform->setType('teachers', PARAM_INT);                   //Set type of element
         $mform->setDefault('courses', -1);        //Default value
 
+        $mform->addElement('hidden', 'teacherid'); // Add elements to your form
+        $mform->setType('teacherid', PARAM_INT);                   //Set type of element
+        $mform->setDefault('teacherid', -1);        //Default value
+
         $buttonarray=array();
         $buttonarray[] = $mform->createElement('submit', 'Submit', 'Save');
         $buttonarray[] = $mform->createElement('cancel');
