@@ -29,6 +29,7 @@ require_login();
 // get id if editing form
 $id = optional_param('id', '', PARAM_TEXT);
 $delete = optional_param('delete', 0, PARAM_INT);
+$teachers = optional_param('teachers', -1, PARAM_INT);
 
 $obj = new stdClass();
 
@@ -48,9 +49,12 @@ if ($delete) {
       //Handle form cancel operation, if cancel button is present on form
       redirect('/', '', 10);
   } elseif ($fromform = $mform->get_data()) {
+    $fromform->teachers = $teachers;
       //In this case you process validated data. $mform->get_data() returns data posted in form.
       // Save form data
-    
+
+      print_r($fromform);
+
       if ($id) {
           // update
           // $data = $DB->get_record('table', ['id'=>$id]);
