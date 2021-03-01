@@ -34,11 +34,14 @@ How to create a plugin for Moodle
 
 https://ricoshae.com.au/createapluginteach
 
-How to create a child theme 
+How to create a child theme
+
 https://ricoshae.com.au/childthemeskill
 
 How to create a block for Moodle
+
 https://ricoshae.com.au/createablockteach
 
 ►► Access ALL COURSES ($29/month)
+
 https://ricoshae.com.au/allmoodlecourses
