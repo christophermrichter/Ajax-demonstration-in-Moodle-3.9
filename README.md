@@ -9,21 +9,29 @@ If you are looking for Moodle plugin or Moodle theme development courses.
 Please go to https://ricoshae.com.au/moodlecoursesgh to view the courses.
 
 ►► Awesome Moodle Courses
+
 FOR TEACHERS
-How to use Moodle 3.9 for teachers and course creators 
+
+How to use Moodle 3.9 for teachers and course creators
+
 https://ricoshae.com.au/moodle39teach
 
 How to use Moodle 3.7 for teachers and course creators 
+
 https://ricoshae.com.au/moodle37teach
 
 Create 9 interactive activities for Moodle
+
 https://ricoshae.com.au/create9activitesteach
 
 Adding responsive content to Moodle courses
+
 https://ricoshae.com.au/responsivecontentteach
 
 FOR DEVELOPERS
-How to create a plugin for Moodle 
+
+How to create a plugin for Moodle
+
 https://ricoshae.com.au/createapluginteach
 
 How to create a child theme 
